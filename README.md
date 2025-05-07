@@ -1,6 +1,6 @@
 Boston Scientific - Digital Commerce
 
-🏆 Brown Bag Sessions 🏆
+🏆 Brown Bag Series 🏆
 
 Repo for Digital Commerce FED Brown Bag series.
 
