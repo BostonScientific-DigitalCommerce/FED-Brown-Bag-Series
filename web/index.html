@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Boston Scientific Brown Bag Series</title>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  </head>
+  <body>
+    <h1>Boston Scientific Brown Bag Series</h1>
+    <nav>
+      <button onclick="loadMarkdown('Schedule.md')">Schedule</button>
+      <button onclick="loadMarkdown('README.md')">About</button>
+      <button onclick="loadMarkdown('Thursday-May-8-2025-Introductions.md')">Sample Talk</button>
+    </nav>
+    <div id="content">Select a section above.</div>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
