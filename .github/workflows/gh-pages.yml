@@ -1,0 +1,27 @@
+# This workflow builds the Vite site and deploys to the docs/ folder on every push to main
+name: Deploy to GitHub Pages (docs folder)
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Install dependencies
+        run: cd web && npm ci
+      - name: Build site
+        run: cd web && npm run build
+      - name: Deploy to GitHub Pages (docs folder)
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./web/docs
+          publish_branch: gh-pages
