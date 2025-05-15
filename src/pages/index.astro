@@ -1,0 +1,27 @@
+---
+import MarkdownContent from '../components/MarkdownContent.jsx';
+const files = [
+  { label: 'Schedule', file: 'Schedule.md' },
+  { label: 'About', file: 'README.md' },
+  { label: 'Sample Talk', file: 'Thursday-May-8-2025-Introductions.md' }
+];
+let selected = files[0].file;
+---
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Boston Scientific Brown Bag Series</title>
+  </head>
+  <body>
+    <h1>Boston Scientific Brown Bag Series</h1>
+    <nav>
+      {files.map(f => (
+        <button type="button" on:click={() => selected = f.file}>{f.label}</button>
+      ))}
+    </nav>
+    <main>
+      <MarkdownContent client:load file={selected} />
+    </main>
+  </body>
+</html>
