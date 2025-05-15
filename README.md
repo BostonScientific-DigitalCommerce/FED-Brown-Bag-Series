@@ -1,47 +1,56 @@
-# Astro Starter Kit: Minimal
+Boston Scientific - Digital Commerce
 
-```sh
-npm create astro@latest -- --template minimal
-```
+## 🏆 Brown Bag Series 🏆
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
+### Repo for Digital Commerce FED Brown Bag series.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+These talks are voluntary, informal, and open to all talks on topics of interest - ranging from new frameworks to accessibility or project retrospectives.
 
-## 🚀 Project Structure
+## How to Participate
+- Open to all frontend developers, voluntary and informal.
+- Propose a talk by opening a GitHub Issue or Pull Request.
+- Join scheduled sessions or suggest new topics!
 
-Inside of your Astro project, you'll see the following folders and files:
+## Talks Schedule
+See the full [Talks Schedule](talks/Schedule.md).
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+## Scoreboard
+| Participant      | Talks Given | Points |
+|------------------|-------------|--------|
+| Name             | 1           | 10     |
+|                  |             |        |
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+### Points System
+| Activity                                            | Points |
+| --------------------------------------------------- | ------ |
+| Gave a full-length talk                             | 10     |
+| Gave a lightning talk                               | 5      |
+| Covered a trending topic                            | +3     |
+| Shared slides or repo                               | +2     |
+| Engaged audience (Q&A)                              | +2     |
+| Participated (attended a session)                   | 1      |
+| Bonus shoutout (e.g., voted best talk of the month) | +5     |
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+- Points can be awarded for presenting, attending, or contributing resources.
 
-Any static assets, like images, can be placed in the `public/` directory.
+## Sharing & Portfolio
+- All talks and contributions are public.
+- Share your talk links on LinkedIn, personal sites, or portfolios.
+- Fork or clone this repo to keep a record of your contributions, even after leaving the company.
 
-## 🧞 Commands
+## Contribution Guidelines
+- Submit your talk proposal via Pull Request or Issue.
+- Add your talk to the schedule table above.
+- Update the scoreboard if you present.
+- Be respectful and inclusive.
 
-All commands are run from the root of the project, from a terminal:
+## Team
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+| Name           | Current Org         | LinkedIn                                   | Tenure at Boston Scientific |
+|----------------|--------------------|--------------------------------------------|-----------------------------|
+| Example Name   | Digital Commerce   | [LinkedIn](https://linkedin.com/in/example) | 2 years                    |
+|                |                    |                                            |                             |
 
-## 👀 Want to learn more?
+---
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Feel free to suggest improvements or new features for this space.
